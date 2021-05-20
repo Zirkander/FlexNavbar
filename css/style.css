@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 50px; */
+    width: 100%;
+    background-color: slategray;
+}
+.nav-title{
+    display: inline-block;
+    /* font-family: "Roboto"; */
+    /* align-items: left; */
+    padding-left: 20px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+.nav-links li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: right;
+}
+.btn{
+    background-color: aqua;
+    color: white;
+    margin-right: 20px;
+    box-shadow: 3px 3px 0px black;
+}
+.nav-links a{
+    color: silver;
+}
